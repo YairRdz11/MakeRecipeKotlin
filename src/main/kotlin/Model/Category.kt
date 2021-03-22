@@ -1,4 +1,4 @@
 package Model
 
-abstract class Categoria {
+class Category (id:Int, name: String, val ingredientList: List<Ingredient> = listOf()) : Base(id, name) {
 }

@@ -1,4 +1,4 @@
 package Model
 
-class Base {
+open class Base(val id:Int, val name: String) {
 }

@@ -1,4 +1,4 @@
 package Model
 
-class Ingredient {
+class Ingredient(id:Int, name: String) : Base(id, name) {
 }
